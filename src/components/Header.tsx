@@ -8,7 +8,7 @@ import { Link as ScrollLing } from "react-scroll";
 
 
 const Header: React.FC = () => {
-  let [navMenu , shownavMenu] = useState<boolean>(false)
+  const [navMenu , shownavMenu] = useState<boolean>(false)
   return (
     <div className="font-mono">
       <header className="md:flex justify-between p-4 z-10 fixed top-0 w-full bg-slate-100 ">
